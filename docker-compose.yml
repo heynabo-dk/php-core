@@ -1,7 +1,9 @@
 services:
   web:
-    image: ghcr.io/lausequites/php-container/php8.5:latest
-    platform: linux/arm64
+    # Built locally from .docker/Dockerfile (pinned base, mirrors heynabo-dk/php-image).
+    build:
+      context: .
+      dockerfile: .docker/Dockerfile
     healthcheck:
       disable: true
     volumes:

@@ -16,7 +16,7 @@ This repository contains the Core runtime (routing, controllers, ActiveRecord, c
 
 ## Backend
 
-The backend framework is LausEquites/Core (this repo). Your application code lives in your own repository; it consumes Core as a dependency and follows the structure and conventions below.
+The backend framework is Core: this repo, github.com/heynabo-dk/php-core, installed as the Composer package `equites/core`. Your application code lives in your own repository; it consumes Core as a dependency and follows the structure and conventions below.
 
 
 ## Project file structure (backend)
